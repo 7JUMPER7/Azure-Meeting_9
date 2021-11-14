@@ -1,0 +1,21 @@
+.container {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, .5);
+    width: 70%;
+    transition: .3s cubic-bezier(.5, 0, 0, 1);
+    margin-top: 30px;
+}
+
+.container .uploader {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container label {
+    margin: 10px;
+}

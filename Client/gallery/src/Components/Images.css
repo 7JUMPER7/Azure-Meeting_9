@@ -1,0 +1,20 @@
+.container .imageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container .imageContainer .image {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #145a8c;
+    border-radius: 7px;
+    overflow: hidden;
+    margin: 1px;
+    max-height: 300px;
+}
+.container .imageContainer .image img {
+    width: 100%;
+}
